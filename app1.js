@@ -30,7 +30,7 @@ obj["new"] = "something" //this is valid
 //with a value property.
 
 Object.defineProperty(obj, 'country', {
-	value: 'Ethiopia'
+	value: 'England'
 });
 
 console.log(obj.country); //Ethiopia
